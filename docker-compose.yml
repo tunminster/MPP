@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mpp.web:
+    image: ${DOCKER_REGISTRY}mppweb
+    build:
+      context: .
+      dockerfile: MPP.Web\Dockerfile
